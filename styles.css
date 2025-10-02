@@ -1,0 +1,46 @@
+#canvas{
+    height: 808px;
+    width: 393px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 5px solid black;
+
+}
+
+#home_screen{
+    height: 808px;
+    width: 393px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+#btn_start{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    border: 0;
+    background: transparent;
+}
+
+#btn_reset{
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: none;
+    border: 0;
+    background: transparent;
+}
+
+body {
+    background: rgb(53,34,195);
+    background: radial-gradient(circle, rgba(53,34,195,1) 0%, rgba(209,45,253,1) 100%);
+}
